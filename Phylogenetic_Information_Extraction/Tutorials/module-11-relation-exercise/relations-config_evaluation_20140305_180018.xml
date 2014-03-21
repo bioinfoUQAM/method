@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ML-RUN>
+<learningMode>EVALUATION</learningMode>
+<corpus><![CDATA[New Corpus]]></corpus>
+<date-loaded>20140305</date-loaded><time-loaded>_175012</time-loaded>
+<date-started>20140305</date-started><time-started>_180010</time-started>
+<date-ended>20140305</date-ended><time-ended>_180018</time-ended>
+<overall>
+  <correct>11.6</correct>
+  <partialCorrect>0.0</partialCorrect>
+  <spurious>11.7</spurious>
+  <missing>2.5</missing>
+  <precision>0.52380526</precision>
+  <recall>0.80637044</recall>
+  <f1>0.6196774</f1>
+  <precisionLenient>0.52380526</precisionLenient>
+  <recallLenient>0.80637044</recallLenient>
+  <f1Lenient>0.6196774</f1Lenient>
+</overall>
+<per-run>
+  <run>
+    <run-nr>0</run-nr>
+    <correct>5.0</correct>
+    <partialCorrect>0.0</partialCorrect>
+    <spurious>3.0</spurious>
+    <missing>5.0</missing>
+    <precision>0.625</precision>
+    <recall>0.5</recall>
+    <f1>0.5555556</f1>
+    <precisionLenient>0.625</precisionLenient>
+    <recallLenient>0.5</recallLenient>
+    <f1Lenient>0.5555556</f1Lenient>
+  </run>
+  <run>
+    <run-nr>1</run-nr>
+    <correct>13.0</correct>
+    <partialCorrect>0.0</partialCorrect>
+    <spurious>11.0</spurious>
+    <missing>3.0</missing>
+    <precision>0.5416667</precision>
+    <recall>0.8125</recall>
+    <f1>0.65</f1>
+    <precisionLenient>0.5416667</precisionLenient>
+    <recallLenient>0.8125</recallLenient>
+    <f1Lenient>0.65</f1Lenient>
+  </run>
+  <run>
+    <run-nr>2</run-nr>
+    <correct>9.0</correct>
+    <partialCorrect>0.0</partialCorrect>
+    <spurious>8.0</spurious>
+    <missing>0.0</missing>
+    <precision>0.5294118</precision>
+    <recall>1.0</recall>
+    <f1>0.6923077</f1>
+    <precisionLenient>0.5294118</precisionLenient>
+    <recallLenient>1.0</recallLenient>
+    <f1Lenient>0.6923077</f1Lenient>
+  </run>
+  <run>
+    <run-nr>3</run-nr>
+    <correct>18.0</correct>
+    <partialCorrect>0.0</partialCorrect>
+    <spurious>16.0</spurious>
+    <missing>2.0</missing>
+    <precision>0.5294118</precision>
+    <recall>0.9</recall>
+    <f1>0.6666667</f1>
+    <precisionLenient>0.5294118</precisionLenient>
+    <recallLenient>0.9</recallLenient>
+    <f1Lenient>0.6666667</f1Lenient>
+  </run>
+  <run>
+    <run-nr>4</run-nr>
+    <correct>11.0</correct>
+    <partialCorrect>0.0</partialCorrect>
+    <spurious>2.0</spurious>
+    <missing>2.0</missing>
+    <precision>0.84615386</precision>
+    <recall>0.84615386</recall>
+    <f1>0.84615386</f1>
+    <precisionLenient>0.84615386</precisionLenient>
+    <recallLenient>0.84615386</recallLenient>
+    <f1Lenient>0.84615386</f1Lenient>
+  </run>
+  <run>
+    <run-nr>5</run-nr>
+    <correct>8.0</correct>
+    <partialCorrect>0.0</partialCorrect>
+    <spurious>18.0</spurious>
+    <missing>3.0</missing>
+    <precision>0.30769232</precision>
+    <recall>0.72727275</recall>
+    <f1>0.43243244</f1>
+    <precisionLenient>0.30769232</precisionLenient>
+    <recallLenient>0.72727275</recallLenient>
+    <f1Lenient>0.43243244</f1Lenient>
+  </run>
+  <run>
+    <run-nr>6</run-nr>
+    <correct>15.0</correct>
+    <partialCorrect>0.0</partialCorrect>
+    <spurious>9.0</spurious>
+    <missing>3.0</missing>
+    <precision>0.625</precision>
+    <recall>0.8333333</recall>
+    <f1>0.71428573</f1>
+    <precisionLenient>0.625</precisionLenient>
+    <recallLenient>0.8333333</recallLenient>
+    <f1Lenient>0.71428573</f1Lenient>
+  </run>
+  <run>
+    <run-nr>7</run-nr>
+    <correct>7.0</correct>
+    <partialCorrect>0.0</partialCorrect>
+    <spurious>11.0</spurious>
+    <missing>2.0</missing>
+    <precision>0.3888889</precision>
+    <recall>0.7777778</recall>
+    <f1>0.5185185</f1>
+    <precisionLenient>0.3888889</precisionLenient>
+    <recallLenient>0.7777778</recallLenient>
+    <f1Lenient>0.5185185</f1Lenient>
+  </run>
+  <run>
+    <run-nr>8</run-nr>
+    <correct>20.0</correct>
+    <partialCorrect>0.0</partialCorrect>
+    <spurious>20.0</spurious>
+    <missing>1.0</missing>
+    <precision>0.5</precision>
+    <recall>0.95238096</recall>
+    <f1>0.65573776</f1>
+    <precisionLenient>0.5</precisionLenient>
+    <recallLenient>0.95238096</recallLenient>
+    <f1Lenient>0.65573776</f1Lenient>
+  </run>
+  <run>
+    <run-nr>9</run-nr>
+    <correct>10.0</correct>
+    <partialCorrect>0.0</partialCorrect>
+    <spurious>19.0</spurious>
+    <missing>4.0</missing>
+    <precision>0.3448276</precision>
+    <recall>0.71428573</recall>
+    <f1>0.46511632</f1>
+    <precisionLenient>0.3448276</precisionLenient>
+    <recallLenient>0.71428573</recallLenient>
+    <f1Lenient>0.46511632</f1Lenient>
+  </run>
+</per-run>
+<ML-CONFIG>
+  <VERBOSITY level="2" />
+  <SURROUND value="false" />
+  <FILTERING ratio="0.0" dis="near" />
+
+  <PARAMETER name="thresholdProbabilityClassification" value="0.5" />
+
+  <multiClassification2Binary method="one-vs-others" />
+
+  <!-- Evaluation : how to split the corpus into test and learn? -->
+  <EVALUATION method="kfold" runs="10" />
+
+  <ENGINE nickname="SVM" implementationName="SVMLibSvmJava" options=" -c 0.7 -t 0 -m 100 -tau 0.6" />
+
+  <DATASET>
+    <INSTANCE-TYPE>RelationInstance</INSTANCE-TYPE>
+    <INSTANCE-ARG1>org-id</INSTANCE-ARG1>
+    <INSTANCE-ARG2>pers-id</INSTANCE-ARG2>
+
+    <FEATURES-ARG1>
+      <ARG>
+        <NAME>ARG1</NAME>
+        <SEMTYPE>NOMINAL</SEMTYPE>
+	<TYPE>Organization</TYPE>
+	<FEATURE>id</FEATURE>
+      </ARG>
+      <ATTRIBUTE>
+        <NAME>Form</NAME>
+        <SEMTYPE>NOMINAL</SEMTYPE>
+        <TYPE>Token</TYPE>
+        <FEATURE>string</FEATURE>
+        <POSITION>0</POSITION>
+      </ATTRIBUTE>
+
+      <ATTRIBUTE>
+        <NAME>POS</NAME>
+        <SEMTYPE>NOMINAL</SEMTYPE>
+	<TYPE>Token</TYPE>
+	<FEATURE>category</FEATURE>
+        <POSITION>0</POSITION>
+      </ATTRIBUTE>
+    </FEATURES-ARG1>
+
+    <FEATURES-ARG2>
+      <ARG>
+        <NAME>ARG2</NAME>
+        <SEMTYPE>NOMINAL</SEMTYPE>
+	<TYPE>Person</TYPE>
+	<FEATURE>id</FEATURE>
+      </ARG>
+      <ATTRIBUTE>
+        <NAME>Form</NAME>
+        <SEMTYPE>NOMINAL</SEMTYPE>
+	<TYPE>Token</TYPE>
+	<FEATURE>string</FEATURE>
+        <POSITION>0</POSITION>
+      </ATTRIBUTE>
+
+      <ATTRIBUTE>
+        <NAME>POS</NAME>
+        <SEMTYPE>NOMINAL</SEMTYPE>
+	<TYPE>Token</TYPE>
+	<FEATURE>category</FEATURE>
+        <POSITION>0</POSITION>
+      </ATTRIBUTE>
+    </FEATURES-ARG2>
+
+    <!--
+	<ATTRIBUTE_REL>
+        <NAME>distance</NAME>
+        <SEMTYPE>NOMINAL</SEMTYPE>
+        <TYPE>RelationInstance</TYPE>
+        <ARG1>org-id</ARG1>
+        <ARG2>pers-id</ARG2>
+        <FEATURE>distance</FEATURE>
+	</ATTRIBUTE_REL>
+    -->
+
+    <ATTRIBUTE_REL>
+      <NAME>Class</NAME>
+      <SEMTYPE>NOMINAL</SEMTYPE>
+      <TYPE>RelationClass</TYPE>
+      <ARG1>org-id</ARG1>
+      <ARG2>pers-id</ARG2>
+      <FEATURE>rel-type</FEATURE>
+      <CLASS />
+    </ATTRIBUTE_REL>
+  </DATASET>
+
+</ML-CONFIG>
+</ML-RUN>

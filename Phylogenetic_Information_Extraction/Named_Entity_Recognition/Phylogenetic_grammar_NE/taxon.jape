@@ -1,0 +1,53 @@
+/*
+*  taxon.jape
+*
+* Copyright (c) 1998-2004, The University of Sheffield.
+*
+*  This file is part of GATE (see http://gate.ac.uk/), and is free
+*  software, licenced under the GNU Library General Public License,
+*  Version 2, June 1991 (in the distribution as file licence.html,
+*  and also available at http://gate.ac.uk/gate/licence.html).
+*
+*  Ahmed Halioui, 6 Mar 2014
+* 
+*  $Id: taxon.jape
+*/
+
+
+Phase:	taxon
+Input: Taxon Lookup Token
+Options: control = appelt
+
+Rule: RemoveAmbgTaxon
+(
+({Lookup, Taxon})
+):temp
+
+-->
+{
+inputAS.removeAll(bindings.get("temp"));
+// gate.AnnotationSet temp = (gate.AnnotationSet) bindings.get("temp");
+// gate.Annotation ann = (gate.Annotation) temp.iterator().next();
+
+// System.out.println("Removed annotations :\n" + temp);
+// inputAS.remove(ann);
+}
+
+// Rule: taxon2
+// Priority:50
+// (
+//  {Taxon.majorType == Taxon}
+//  (
+//  	{Taxon.majorType == Taxon}
+//  )?
+// ):taxonMultiple
+// -->
+// :taxonMultiple.Taxon = {rule= "taxon2" }
+
+// Rule: taxon3
+// Priority:50
+// (
+//  {Token.kind == word, Token.category == NNPS}
+// ):taxonPlural
+// -->
+// :taxonPlural.Taxon = {rule= "taxon3" }
