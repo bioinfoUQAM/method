@@ -15,13 +15,17 @@
 
 
 Phase:	Protein
-Input: Protein Token
+Input: Phyl_Protein Lookup Token
 Options: control = appelt
 
-Rule: protein1
+
+Rule: RemoveAmbgProteinsNumeric
 (
- {Protein.majorType == Protein}
-)
-:protein
+{Token.kind==number, Phyl_Protein}
+)+:temp_numeric
+
 -->
- :protein.Protein = {rule = "protein1"}
+{
+// System.out.println("Removed annotations :\n" + temp_numeric);
+inputAS.removeAll(bindings.get("temp_numeric"));
+}
