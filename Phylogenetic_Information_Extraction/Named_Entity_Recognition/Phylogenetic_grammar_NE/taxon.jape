@@ -15,12 +15,12 @@
 
 
 Phase:	taxon
-Input: Taxon Lookup Token
+Input: Phyl_Taxon Lookup
 Options: control = appelt
 
 Rule: RemoveAmbgTaxon
 (
-({Lookup, Taxon})
+{Lookup, Phyl_Taxon}
 ):temp
 
 -->
@@ -36,9 +36,9 @@ inputAS.removeAll(bindings.get("temp"));
 // Rule: taxon2
 // Priority:50
 // (
-//  {Taxon.majorType == Taxon}
+//  {Taxon.majorType == Phyl_Taxon}
 //  (
-//  	{Taxon.majorType == Taxon}
+//  	{Taxon.majorType == Phyl_Taxon}
 //  )?
 // ):taxonMultiple
 // -->
