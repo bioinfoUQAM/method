@@ -25,7 +25,8 @@ Rule: RemoveAmbgTaxon
 
 -->
 {
-inputAS.removeAll(bindings.get("temp"));
+// System.out.println("Removed annotations :\n" + temp);
+	inputAS.removeAll(bindings.get("temp"));
 // gate.AnnotationSet temp = (gate.AnnotationSet) bindings.get("temp");
 // gate.Annotation ann = (gate.Annotation) temp.iterator().next();
 

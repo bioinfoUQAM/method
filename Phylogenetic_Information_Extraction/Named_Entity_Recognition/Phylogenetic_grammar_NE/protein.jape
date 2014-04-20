@@ -14,18 +14,19 @@
 */
 
 
-Phase:	Protein
+Phase:	protein
 Input: Phyl_Protein Lookup Token
 Options: control = appelt
 
 
 Rule: RemoveAmbgProteinsNumeric
 (
-{Token.kind==number, Phyl_Protein}
-)+:temp_numeric
+{Phyl_Protein, Token.category=="CD", Token.length<2}
+):temp_numeric
 
 -->
 {
-// System.out.println("Removed annotations :\n" + temp_numeric);
+System.out.println("Removed annotations :");
 inputAS.removeAll(bindings.get("temp_numeric"));
+// System.out.println("Removed annotations :\n" + temp);
 }
