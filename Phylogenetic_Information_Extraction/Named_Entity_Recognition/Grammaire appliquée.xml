@@ -1,0 +1,176 @@
+------------------------------------------------------------------------------------------
+Raffiner les listes extraits automatiquement :
+------------------------------------------------------------------------------------------
+(1) Dans toutes les listes
+	. Enlever les termes cours (<2)
+	. Enlever les caractères spéciaux de début det fin de terme
+
+(2) Mettre à jours les listes
+	. taxon
++		Merkel cell polyomavirus (MCV or MCPyV)
++		Human bocavirus (HBoV)
++		common midwife toad ranavirus (CMTV)
+-		unclassified ?
+X		tef-1 ? (tef)
++		T. pachyurus ?
++		T. obscurus ?
++		Atyid freshwater shrimps ?
++		dinosaurs ?
+-		name ?
+X		Lymnaea diaphana ?
++		L. diaphana ?
+-		common ?
+
+	. method
+X		genomes ?
++		Bayes
++		Markov
+-		phylogene ?
+-		phylogenetically ?
+-		Maximum Likelihood ?
+-		Maximum Parsimony ?
+X		ITS-1 et ITS2 ?
++		Classes de méthodes
+
+	. protein
++		Toc75
+		OEP80
+X		putative ?
+X		0.01-95.4 ?
++		LTag ?
+X		Prb ?
+X		Rag-1 ?
+X		Rag-2 ?
++		ND2 ?
++		ND4 ?
++		CRF01_AE ?
+-		PCR ?
+X		1.34'ng/g ?
++		Smad2a
++		Smad2b
++		Smad4a
++		Smad4a
++		MSTN1A
++		MSTN1A
+
+	. gene
+-		era ?
+-		Inc ?
+X		HBV ?
+X		P_=_0.031 ?
+X		P_=_0.001, 0.003 ?
+X		P_=_0.0006 ?
++		HBsAg
++		HBIG
++		Env gene ?
+
+	. data_type
+X		genomic sequence ?
+X		complete genome sequence ?
+-		sequence ?
+
+------------------------------------------------------------------------------------------
+PHASES APPLIQUÉES :
+------------------------------------------------------------------------------------------
+
+******************************** 
+(1) amino_acid
+********************************
+
+
+********************************
+(2) data_format
+********************************
+
+
+********************************
+(3) data_type
+********************************
+
+
+********************************
+(4) disease
+********************************
+
+
+********************************
+(5) gene
+********************************
+
+
+********************************
+(6) method
+********************************
+
+
+********************************
+(7) model
+********************************
+
+
+********************************
+(8) nucleotide
+********************************
+
+
+********************************
+(9) program
+********************************
+
+
+********************************
+(10) protein
+********************************
+1. Une Phyl_Protein ne peut pas être un nombre cardinal.
+2. Le nom d'une Phyl_Protein doit avoir plus que 2 caractères.
+
+********************************
+(11) source
+********************************
+
+
+********************************
+(12) taxon
+********************************
+1. Un Phyl_Taxon ne peut pas être un Lookup.
+
+------------------------------------------------------------------------------------------
+PROBLÈMES NON RÉSOLUS:
+------------------------------------------------------------------------------------------
+1. Les noms de classes peuvent-elle présentés des valeurs aussi ?
+--> NON (à discuter ...)
+
+2. Relations entre les classes : exclusion (OR/XOR).
+		. Termes composés eg. Arabidopsis plants, DNA sequence
+		-->
+		. Types de données VS nom des gènes
+		--> 
+		. Types de données VS nom de taxon eg. : mitochondrial DNA (mtDNA)
+		-->
+		. Type de données VS nom de gène eg. 16s rRNA
+		-->
+		. Protein et Taxon (un taxon inclut protein). Il s'agit d'une protein adjective ?
+		-->
+		. Nom de taxon comme adjectif eg. : human endemic areas, human activities
+	--> 
+		
+3. Comparaison entre Genia Annotator et mon approche.
+--> 
+
+4. Annotation Genia devrait-on les prendre en considération 
+		. cell type ?
+		--> 
+		. RNA ?
+		--> 
+		. DNA ?
+		--> 
+		. protein ?
+		--> 
+--> 
+
+5. Origine géographique (Lookup.majorType=location, Lookup.minorType=country) ?
+--> 
+
+6. Hiérarchies dans les valeurs de termes eg. Méthode/Programme/Classe de méthodes
+comme MrBayes, Bayesian methods
+--> NON

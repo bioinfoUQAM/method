@@ -15,18 +15,40 @@
 
 
 Phase:	protein
-Input: Phyl_Protein Lookup Token
+Input: Phyl_Protein Token
 Options: control = appelt
 
 
 Rule: RemoveAmbgProteinsNumeric
+
 (
-{Phyl_Protein, Token.category=="CD", Token.length<2}
+{Phyl_Protein, Token.category=="CD"}
 ):temp_numeric
 
 -->
 {
-System.out.println("Removed annotations :");
+System.out.println("A CARDINAL PROTEIN NUMBER (CD) ANNOTATION IS DELETED.");
 inputAS.removeAll(bindings.get("temp_numeric"));
 // System.out.println("Removed annotations :\n" + temp);
+}
+
+Rule: RemoveOneCharProteins
+
+(
+	{Phyl_Protein}
+):temp_one_char
+
+-->
+{
+	AnnotationSet tagAnnots = (AnnotationSet) bindings.get("temp_one_char");
+	// get the offsets 
+	Long protStart = tagAnnots.firstNode().getOffset();
+	Long protEnd = tagAnnots.lastNode().getOffset();
+
+	// check the number is longer than or equal to 2 characters (just in case)
+	if(protEnd - protStart <= 2) {
+		System.out.println("A ONE/TWO CHARACTER(S) PROTEIN ANNOTATION IS DELETED." );
+		inputAS.removeAll(bindings.get("temp_one_char"));
+	// System.out.println("Removed annotations :\n" + temp);
+	}
 }

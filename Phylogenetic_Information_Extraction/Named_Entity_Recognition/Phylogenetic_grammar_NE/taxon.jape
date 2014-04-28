@@ -25,7 +25,7 @@ Rule: RemoveAmbgTaxon
 
 -->
 {
-// System.out.println("Removed annotations :\n" + temp);
+System.out.println("A LOOKUP TAXON ANNOTATION IS DELETED." );
 	inputAS.removeAll(bindings.get("temp"));
 // gate.AnnotationSet temp = (gate.AnnotationSet) bindings.get("temp");
 // gate.Annotation ann = (gate.Annotation) temp.iterator().next();
