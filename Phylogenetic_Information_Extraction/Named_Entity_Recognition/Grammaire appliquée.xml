@@ -11,40 +11,40 @@ Raffiner les listes extraits automatiquement :
 +		Human bocavirus (HBoV)
 +		common midwife toad ranavirus (CMTV)
 -		unclassified ?
-X		tef-1 ? (tef)
+X		tef-1 ? 								--> tef is a taxon !
 +		T. pachyurus ?
 +		T. obscurus ?
 +		Atyid freshwater shrimps ?
 +		dinosaurs ?
 -		name ?
-X		Lymnaea diaphana ?
+X		Lymnaea diaphana ?						--> it does exist !
 +		L. diaphana ?
 -		common ?
 
 	. method
-X		genomes ?
+X		genomes ?								--> it does not exist !
 +		Bayes
 +		Markov
 -		phylogene ?
 -		phylogenetically ?
 -		Maximum Likelihood ?
 -		Maximum Parsimony ?
-X		ITS-1 et ITS2 ?
+X		ITS-1 et ITS2 ?							--> ITS is a datatype !?
 +		Classes de méthodes
 
 	. protein
 +		Toc75
-		OEP80
-X		putative ?
-X		0.01-95.4 ?
-+		LTag ?
-X		Prb ?
-X		Rag-1 ?
-X		Rag-2 ?
++		OEP80
+X		putative ?								--> exists only as an adjectif !
+X		0.01-95.4 ?								--> it does not exist !
++		LTag ?									--> it does exist !
+X		Prb ?									--> it does exist !
+X		Rag-1 ?									--> it does exist !
+X		Rag-2 ?									--> it does exist !
 +		ND2 ?
 +		ND4 ?
 +		CRF01_AE ?
--		PCR ?
+X		PCR ?									--> it does exist but it should be different from the context (always same problem -- see learning)!
 X		1.34'ng/g ?
 +		Smad2a
 +		Smad2b
@@ -68,6 +68,9 @@ X		P_=_0.0006 ?
 X		genomic sequence ?
 X		complete genome sequence ?
 -		sequence ?
+
+	. disease
+-		other ?
 
 ------------------------------------------------------------------------------------------
 PHASES APPLIQUÉES :
@@ -151,7 +154,7 @@ PROBLÈMES NON RÉSOLUS:
 		-->
 		. Protein et Taxon (un taxon inclut protein). Il s'agit d'une protein adjective ?
 		-->
-		. Nom de taxon comme adjectif eg. : human endemic areas, human activities
+		. Nom de taxon comme adjectif eg. : human endemic areas, human activities, human gastrointestinal
 	--> 
 		
 3. Comparaison entre Genia Annotator et mon approche.
