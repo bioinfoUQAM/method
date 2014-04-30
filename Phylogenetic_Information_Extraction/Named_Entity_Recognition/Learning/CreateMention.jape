@@ -1,0 +1,101 @@
+Phase:firstpass
+Input: Phyl_Amino_acid Phyl_Data_format Phyl_Data_type 
+Phyl_Disease Phyl_Gene Phyl_Method Phyl_Model Phyl_Nucleotide
+Phyl_Program Phyl_Protein Phyl_Source Phyl_Taxon
+Options: control = brill
+
+//
+Rule: Phyl_Amino_acid
+(
+{Phyl_Amino_acid}
+):Phyl_Amino_acid
+-->
+ :Phyl_Amino_acid.Mention = {type="amino_acid"}
+
+//
+Rule: Phyl_Data_format
+(
+{Phyl_Data_format}
+):Phyl_Data_format
+-->
+ :Phyl_Data_format.Mention = {type="Data_format"}
+
+//
+Rule: Phyl_Data_type
+(
+{Phyl_Data_type}
+):Phyl_Data_type
+-->
+ :Phyl_Data_type.Mention = {type="data_type"}
+
+//
+Rule: Phyl_Disease
+(
+{Phyl_Disease}
+):Phyl_Disease
+-->
+ :Phyl_Disease.Mention = {type="disease"}
+
+//
+Rule: Phyl_Gene
+(
+{Phyl_Gene}
+):Phyl_Gene
+-->
+ :Phyl_Gene.Mention = {type="gene"}
+
+//
+Rule: Phyl_Method
+(
+{Phyl_Method}
+):Phyl_Method
+-->
+ :Phyl_Method.Mention = {type="method"}
+
+//
+Rule: Phyl_Model
+(
+{Phyl_Model}
+):Phyl_Model
+-->
+ :Phyl_Model.Mention = {type="model"}
+
+//
+Rule: Phyl_Nucleotide
+(
+{Phyl_Nucleotide}
+):Phyl_Nucleotide
+-->
+ :Phyl_Nucleotide.Mention = {type="nucleotide"}
+
+//
+Rule: Phyl_Program
+(
+{Phyl_Program}
+):Phyl_Program
+-->
+ :Phyl_Program.Mention = {type="program"}
+
+//
+Rule: Phyl_Protein
+(
+{Phyl_Protein}
+):Phyl_Protein
+-->
+ :Phyl_Protein.Mention = {type="protein"}
+
+//
+Rule: Phyl_Source
+(
+{Phyl_Source}
+):Phyl_Source
+-->
+ :Phyl_Source.Mention = {type="source"}
+
+//
+Rule: Phyl_Taxon
+(
+{Phyl_Taxon}
+):Phyl_Taxon
+-->
+ :Phyl_Taxon.Mention = {type="taxon"}

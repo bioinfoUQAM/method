@@ -1,0 +1,44 @@
+------------------------------------------------------------------------------------------
+Configuration APPLIQUÉE :
+------------------------------------------------------------------------------------------
+
+--------------------------------------
+SURROUND
+--------------------------------------
+
+--------------------------------------
+PARAMETERS
+thresholdProbabilityBoundary			is a threshold for the beginning and end instances
+thresholdProbabilityEntity 				is a threshold for beginning and end instances combined
+--------------------------------------
+
+--------------------------------------
+BINARY CLASSIFICATION
+multiClassification2Binary				one-vs-others: N classes => N classifiers
+										one-vs-another: N classes => N×(N-1)/2 classifiers
+--------------------------------------
+
+--------------------------------------
+EVALUATION
+										kfold
+										holdout
+--------------------------------------
+ENGINE									
+										PAUM 
+											-p
+											-n
+											-optB
+--------------------------------------
+
+--------------------------------------
+ATTRIBUTES
+
+ATTRIBUTELIST							<NAME> : attribute name					eg. Form
+										<SEMTYPE> : attribute type				eg. NOMINAL
+										<TYPE> : Annotation type				eg. Token
+										<FEATURE> : Annotation feature 			eg. category
+										<RANGE from="" to=""/> :contexte		eg. gather 2 previous attributes and 2 next atributes too
+ATTRIBUTE								<NAME>Class</NAME> : class attribute
+										<POSITION>0</POSITION> : This is an ATTRIBUTE, not an ATTRIBUTELIST, so we have "position", not "range"
+--------------------------------------
+

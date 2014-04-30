@@ -1,0 +1,632 @@
+30-Apr-2014 6:53:54 PM: 
+
+*************************
+A new session for NLP learning is starting: 20140430_185354file:/Users/Ahmed/bioinfoUQAM/method/Phylogenetic_Information_Extraction/Named_Entity_Recognition/Learning/ner-config.xml (saved 20130523_114954, 29574240secs ago)The initiliased time of NLP learning: Wed Apr 30 18:53:54 EDT 2014
+Working directory: /Users/Ahmed/bioinfoUQAM/method/Phylogenetic_Information_Extraction/Named_Entity_Recognition/Learning
+The feature files and models are saved at: /Users/Ahmed/bioinfoUQAM/method/Phylogenetic_Information_Extraction/Named_Entity_Recognition/Learning/savedFiles
+Learner name: PAUM
+Learner nick name: PAUM
+Learner parameter settings: PAUM
+Surroud mode (or chunk learning): true
+30-Apr-2014 6:56:02 PM: 
+*** A new run starts.
+30-Apr-2014 6:56:02 PM: 
+The execution time (pre-processing the first document): Wed Apr 30 18:56:02 EDT 2014
+30-Apr-2014 6:56:04 PM: The learning start at Wed Apr 30 18:56:04 EDT 2014
+30-Apr-2014 6:56:04 PM: The number of documents in dataset: 19
+30-Apr-2014 6:56:04 PM: ** Evaluation mode:
+30-Apr-2014 6:56:04 PM: K-fold evaluation: k=4
+30-Apr-2014 6:56:04 PM: Kfold k=4, numDoc=19, len=4.
+30-Apr-2014 6:56:04 PM: 
+*** Fold 1
+Number of docs for training: 15
+1 abstract_1001.txt.xml_00111
+2 abstract_1002.txt.xml_00112
+3 abstract_1003.txt.xml_00113
+4 abstract_1004.txt.xml_00114
+5 abstract_1005.txt.xml_00115
+6 abstract_1006.txt.xml_00116
+7 abstract_1007.txt.xml_00117
+8 abstract_961.txt.xml_004E0
+9 abstract_962.txt.xml_004E1
+10 abstract_963.txt.xml_004E2
+11 abstract_964.txt.xml_004E3
+12 abstract_965.txt.xml_004E4
+13 abstract_966.txt.xml_004E5
+14 abstract_998.txt.xml_00508
+15 abstract_999.txt.xml_00509
+Number of docs for application: 4
+1 abstract_1.txt.xml_0010D
+2 abstract_10.txt.xml_0010E
+3 abstract_100.txt.xml_0010F
+4 abstract_1000.txt.xml_00110
+
+30-Apr-2014 6:56:40 PM: 
+Training starts.
+
+30-Apr-2014 6:56:40 PM: Multi to binary conversion.
+30-Apr-2014 6:56:40 PM: The learners: PAUM
+30-Apr-2014 6:56:40 PM: The number of classes in dataset: 10
+30-Apr-2014 6:56:40 PM: total Number of classes for learning is 10
+30-Apr-2014 6:56:40 PM: One against others for multi to binary class conversion.
+30-Apr-2014 6:56:40 PM: Training time for class 1: 139ms
+30-Apr-2014 6:56:40 PM: Training time for class 2: 146ms
+30-Apr-2014 6:56:40 PM: Training time for class 3: 57ms
+30-Apr-2014 6:56:40 PM: Training time for class 4: 78ms
+30-Apr-2014 6:56:40 PM: Training time for class 5: 66ms
+30-Apr-2014 6:56:40 PM: Training time for class 6: 100ms
+30-Apr-2014 6:56:40 PM: Training time for class 7: 85ms
+30-Apr-2014 6:56:41 PM: Training time for class 8: 138ms
+30-Apr-2014 6:56:41 PM: Training time for class 9: 143ms
+30-Apr-2014 6:56:41 PM: Training time for class 10: 170ms
+30-Apr-2014 6:57:13 PM: 
+Application starts.
+30-Apr-2014 6:57:13 PM: Multi to binary conversion.
+30-Apr-2014 6:57:13 PM: The learners: PAUM
+30-Apr-2014 6:57:13 PM: One against others for multi to binary class conversion.
+Number of classes in model: 10
+30-Apr-2014 6:57:14 PM: Application time for class: 941ms
+30-Apr-2014 6:57:16 PM: Results of this run:
+
+
+Results of single label:
+0 LabelName=data_type, number of instances=12
+  (correct, partialCorrect, spurious, missing)= (0.0, 0.0, 0.0, 0.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.0, 0.0, 0.0)
+1 LabelName=gene, number of instances=18
+  (correct, partialCorrect, spurious, missing)= (0.0, 0.0, 1.0, 0.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.0, 0.0, 0.0)
+2 LabelName=method, number of instances=9
+  (correct, partialCorrect, spurious, missing)= (0.0, 0.0, 0.0, 0.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.0, 0.0, 0.0)
+3 LabelName=protein, number of instances=9
+  (correct, partialCorrect, spurious, missing)= (0.0, 0.0, 1.0, 0.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.0, 0.0, 0.0)
+4 LabelName=taxon, number of instances=144
+  (correct, partialCorrect, spurious, missing)= (0.0, 0.0, 8.0, 0.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.0, 0.0, 0.0)
+
+Overall results(micro-averaged over all labels):
+  (correct, partialCorrect, spurious, missing)= (0.0, 0.0, 10.0, 0.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.0, 0.0, 0.0)
+
+30-Apr-2014 6:57:16 PM: 
+*** Fold 2
+Number of docs for training: 15
+1 abstract_1.txt.xml_0010D
+2 abstract_10.txt.xml_0010E
+3 abstract_100.txt.xml_0010F
+4 abstract_1000.txt.xml_00110
+5 abstract_1005.txt.xml_00115
+6 abstract_1006.txt.xml_00116
+7 abstract_1007.txt.xml_00117
+8 abstract_961.txt.xml_004E0
+9 abstract_962.txt.xml_004E1
+10 abstract_963.txt.xml_004E2
+11 abstract_964.txt.xml_004E3
+12 abstract_965.txt.xml_004E4
+13 abstract_966.txt.xml_004E5
+14 abstract_998.txt.xml_00508
+15 abstract_999.txt.xml_00509
+Number of docs for application: 4
+1 abstract_1001.txt.xml_00111
+2 abstract_1002.txt.xml_00112
+3 abstract_1003.txt.xml_00113
+4 abstract_1004.txt.xml_00114
+
+30-Apr-2014 6:57:18 PM: 
+Training starts.
+
+30-Apr-2014 6:57:18 PM: Multi to binary conversion.
+30-Apr-2014 6:57:18 PM: The learners: PAUM
+30-Apr-2014 6:57:18 PM: The number of classes in dataset: 6
+30-Apr-2014 6:57:18 PM: total Number of classes for learning is 6
+30-Apr-2014 6:57:18 PM: One against others for multi to binary class conversion.
+30-Apr-2014 6:57:18 PM: Training time for class 1: 68ms
+30-Apr-2014 6:57:18 PM: Training time for class 2: 107ms
+30-Apr-2014 6:57:18 PM: Training time for class 3: 86ms
+30-Apr-2014 6:57:18 PM: Training time for class 4: 91ms
+30-Apr-2014 6:57:18 PM: Training time for class 5: 78ms
+30-Apr-2014 6:57:18 PM: Training time for class 6: 147ms
+30-Apr-2014 6:57:19 PM: 
+Application starts.
+30-Apr-2014 6:57:19 PM: Multi to binary conversion.
+30-Apr-2014 6:57:19 PM: The learners: PAUM
+30-Apr-2014 6:57:19 PM: One against others for multi to binary class conversion.
+Number of classes in model: 6
+30-Apr-2014 6:57:19 PM: Application time for class: 480ms
+30-Apr-2014 6:57:21 PM: Results of this run:
+
+
+Results of single label:
+0 LabelName=data_type, number of instances=9
+  (correct, partialCorrect, spurious, missing)= (0.0, 0.0, 0.0, 3.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.0, 0.0, 0.0)
+1 LabelName=gene, number of instances=18
+  (correct, partialCorrect, spurious, missing)= (0.0, 0.0, 0.0, 0.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.0, 0.0, 0.0)
+2 LabelName=taxon, number of instances=93
+  (correct, partialCorrect, spurious, missing)= (0.0, 0.0, 1.0, 51.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.0, 0.0, 0.0)
+
+Overall results(micro-averaged over all labels):
+  (correct, partialCorrect, spurious, missing)= (0.0, 0.0, 1.0, 54.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.0, 0.0, 0.0)
+
+30-Apr-2014 6:57:21 PM: 
+*** Fold 3
+Number of docs for training: 15
+1 abstract_1.txt.xml_0010D
+2 abstract_10.txt.xml_0010E
+3 abstract_100.txt.xml_0010F
+4 abstract_1000.txt.xml_00110
+5 abstract_1001.txt.xml_00111
+6 abstract_1002.txt.xml_00112
+7 abstract_1003.txt.xml_00113
+8 abstract_1004.txt.xml_00114
+9 abstract_962.txt.xml_004E1
+10 abstract_963.txt.xml_004E2
+11 abstract_964.txt.xml_004E3
+12 abstract_965.txt.xml_004E4
+13 abstract_966.txt.xml_004E5
+14 abstract_998.txt.xml_00508
+15 abstract_999.txt.xml_00509
+Number of docs for application: 4
+1 abstract_1005.txt.xml_00115
+2 abstract_1006.txt.xml_00116
+3 abstract_1007.txt.xml_00117
+4 abstract_961.txt.xml_004E0
+
+30-Apr-2014 6:57:22 PM: 
+Training starts.
+
+30-Apr-2014 6:57:22 PM: Multi to binary conversion.
+30-Apr-2014 6:57:22 PM: The learners: PAUM
+30-Apr-2014 6:57:22 PM: The number of classes in dataset: 8
+30-Apr-2014 6:57:22 PM: total Number of classes for learning is 8
+30-Apr-2014 6:57:22 PM: One against others for multi to binary class conversion.
+30-Apr-2014 6:57:22 PM: Training time for class 1: 83ms
+30-Apr-2014 6:57:22 PM: Training time for class 2: 94ms
+30-Apr-2014 6:57:22 PM: Training time for class 3: 68ms
+30-Apr-2014 6:57:22 PM: Training time for class 4: 64ms
+30-Apr-2014 6:57:23 PM: Training time for class 5: 51ms
+30-Apr-2014 6:57:23 PM: Training time for class 6: 84ms
+30-Apr-2014 6:57:23 PM: Training time for class 7: 43ms
+30-Apr-2014 6:57:23 PM: Training time for class 8: 37ms
+30-Apr-2014 6:57:23 PM: 
+Application starts.
+30-Apr-2014 6:57:23 PM: Multi to binary conversion.
+30-Apr-2014 6:57:23 PM: The learners: PAUM
+30-Apr-2014 6:57:23 PM: One against others for multi to binary class conversion.
+Number of classes in model: 8
+30-Apr-2014 6:57:24 PM: Application time for class: 133ms
+30-Apr-2014 6:57:25 PM: Results of this run:
+
+
+Results of single label:
+0 LabelName=data_type, number of instances=3
+  (correct, partialCorrect, spurious, missing)= (0.0, 0.0, 2.0, 9.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.0, 0.0, 0.0)
+1 LabelName=method, number of instances=9
+  (correct, partialCorrect, spurious, missing)= (0.0, 0.0, 0.0, 0.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.0, 0.0, 0.0)
+2 LabelName=protein, number of instances=9
+  (correct, partialCorrect, spurious, missing)= (0.0, 0.0, 7.0, 0.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.0, 0.0, 0.0)
+3 LabelName=taxon, number of instances=72
+  (correct, partialCorrect, spurious, missing)= (5.0, 0.0, 2.0, 67.0);  (precision, recall, F1)= (0.71428573, 0.06944445, 0.1265823);  Lenient: (0.71428573, 0.06944445, 0.1265823)
+
+Overall results(micro-averaged over all labels):
+  (correct, partialCorrect, spurious, missing)= (5.0, 0.0, 11.0, 76.0);  (precision, recall, F1)= (0.3125, 0.061728396, 0.10309278);  Lenient: (0.3125, 0.061728396, 0.10309278)
+
+30-Apr-2014 6:57:25 PM: 
+*** Fold 4
+Number of docs for training: 15
+1 abstract_1.txt.xml_0010D
+2 abstract_10.txt.xml_0010E
+3 abstract_100.txt.xml_0010F
+4 abstract_1000.txt.xml_00110
+5 abstract_1001.txt.xml_00111
+6 abstract_1002.txt.xml_00112
+7 abstract_1003.txt.xml_00113
+8 abstract_1004.txt.xml_00114
+9 abstract_1005.txt.xml_00115
+10 abstract_1006.txt.xml_00116
+11 abstract_1007.txt.xml_00117
+12 abstract_961.txt.xml_004E0
+13 abstract_966.txt.xml_004E5
+14 abstract_998.txt.xml_00508
+15 abstract_999.txt.xml_00509
+Number of docs for application: 4
+1 abstract_962.txt.xml_004E1
+2 abstract_963.txt.xml_004E2
+3 abstract_964.txt.xml_004E3
+4 abstract_965.txt.xml_004E4
+
+30-Apr-2014 6:57:54 PM: 
+Training starts.
+
+30-Apr-2014 6:57:54 PM: Multi to binary conversion.
+30-Apr-2014 6:57:54 PM: The learners: PAUM
+30-Apr-2014 6:57:54 PM: The number of classes in dataset: 10
+30-Apr-2014 6:57:54 PM: total Number of classes for learning is 10
+30-Apr-2014 6:57:54 PM: One against others for multi to binary class conversion.
+30-Apr-2014 6:57:54 PM: Training time for class 1: 51ms
+30-Apr-2014 6:57:54 PM: Training time for class 2: 47ms
+30-Apr-2014 6:57:54 PM: Training time for class 3: 42ms
+30-Apr-2014 6:57:54 PM: Training time for class 4: 52ms
+30-Apr-2014 6:57:54 PM: Training time for class 5: 42ms
+30-Apr-2014 6:57:54 PM: Training time for class 6: 50ms
+30-Apr-2014 6:57:54 PM: Training time for class 7: 40ms
+30-Apr-2014 6:57:55 PM: Training time for class 8: 43ms
+30-Apr-2014 6:57:55 PM: Training time for class 9: 45ms
+30-Apr-2014 6:57:55 PM: Training time for class 10: 72ms
+30-Apr-2014 6:57:55 PM: 
+Application starts.
+30-Apr-2014 6:57:55 PM: Multi to binary conversion.
+30-Apr-2014 6:57:55 PM: The learners: PAUM
+30-Apr-2014 6:57:55 PM: One against others for multi to binary class conversion.
+Number of classes in model: 10
+30-Apr-2014 6:57:55 PM: Application time for class: 138ms
+30-Apr-2014 6:57:56 PM: Results of this run:
+
+
+Results of single label:
+0 LabelName=data_type, number of instances=12
+  (correct, partialCorrect, spurious, missing)= (0.0, 0.0, 2.0, 0.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.0, 0.0, 0.0)
+1 LabelName=gene, number of instances=18
+  (correct, partialCorrect, spurious, missing)= (0.0, 0.0, 0.0, 0.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.0, 0.0, 0.0)
+2 LabelName=method, number of instances=9
+  (correct, partialCorrect, spurious, missing)= (0.0, 0.0, 1.0, 0.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.0, 0.0, 0.0)
+3 LabelName=protein, number of instances=9
+  (correct, partialCorrect, spurious, missing)= (0.0, 0.0, 0.0, 0.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.0, 0.0, 0.0)
+4 LabelName=taxon, number of instances=144
+  (correct, partialCorrect, spurious, missing)= (0.0, 0.0, 5.0, 0.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.0, 0.0, 0.0)
+
+Overall results(micro-averaged over all labels):
+  (correct, partialCorrect, spurious, missing)= (0.0, 0.0, 8.0, 0.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.0, 0.0, 0.0)
+
+30-Apr-2014 6:57:56 PM: 
+*** Averaged results for each label over 4 runs as:
+
+Results of single label:
+0 LabelName=data_type, number of instances=9
+  (correct, partialCorrect, spurious, missing)= (0.0, 0.0, 1.0, 3.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.0, 0.0, 0.0)
+1 LabelName=gene, number of instances=18
+  (correct, partialCorrect, spurious, missing)= (0.0, 0.0, 0.33333334, 0.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.0, 0.0, 0.0)
+2 LabelName=method, number of instances=9
+  (correct, partialCorrect, spurious, missing)= (0.0, 0.0, 0.33333334, 0.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.0, 0.0, 0.0)
+3 LabelName=protein, number of instances=9
+  (correct, partialCorrect, spurious, missing)= (0.0, 0.0, 2.6666667, 0.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.0, 0.0, 0.0)
+4 LabelName=taxon, number of instances=113
+  (correct, partialCorrect, spurious, missing)= (1.25, 0.0, 4.0, 29.5);  (precision, recall, F1)= (0.17857143, 0.017361112, 0.031645574);  Lenient: (0.17857143, 0.017361112, 0.031645574)
+
+Overall results as:
+  (correct, partialCorrect, spurious, missing)= (1.25, 0.0, 7.5, 32.5);  (precision, recall, F1)= (0.078125, 0.015432099, 0.025773196);  Lenient: (0.078125, 0.015432099, 0.025773196)
+
+30-Apr-2014 6:57:56 PM: This learning session finished!.
+30-Apr-2014 7:09:50 PM: 
+
+*************************
+A new session for NLP learning is starting: 20140430_190950file:/Users/Ahmed/bioinfoUQAM/method/Phylogenetic_Information_Extraction/Named_Entity_Recognition/Learning/ner-config.xml (saved 20140430_190929, 21secs ago)The initiliased time of NLP learning: Wed Apr 30 19:09:50 EDT 2014
+Working directory: /Users/Ahmed/bioinfoUQAM/method/Phylogenetic_Information_Extraction/Named_Entity_Recognition/Learning
+The feature files and models are saved at: /Users/Ahmed/bioinfoUQAM/method/Phylogenetic_Information_Extraction/Named_Entity_Recognition/Learning/savedFiles
+Learner name: PAUM
+Learner nick name: PAUM
+Learner parameter settings: PAUM
+Surroud mode (or chunk learning): true
+30-Apr-2014 7:10:07 PM: 
+*** A new run starts.
+30-Apr-2014 7:10:07 PM: 
+The execution time (pre-processing the first document): Wed Apr 30 19:10:07 EDT 2014
+30-Apr-2014 7:10:08 PM: The learning start at Wed Apr 30 19:10:08 EDT 2014
+30-Apr-2014 7:10:08 PM: The number of documents in dataset: 19
+30-Apr-2014 7:10:08 PM: ** Evaluation mode:
+30-Apr-2014 7:10:08 PM: K-fold evaluation: k=4
+30-Apr-2014 7:10:08 PM: Kfold k=4, numDoc=19, len=4.
+30-Apr-2014 7:10:08 PM: 
+*** Fold 1
+Number of docs for training: 15
+1 abstract_1001.txt.xml_00111
+2 abstract_1002.txt.xml_00112
+3 abstract_1003.txt.xml_00113
+4 abstract_1004.txt.xml_00114
+5 abstract_1005.txt.xml_00115
+6 abstract_1006.txt.xml_00116
+7 abstract_1007.txt.xml_00117
+8 abstract_961.txt.xml_004E0
+9 abstract_962.txt.xml_004E1
+10 abstract_963.txt.xml_004E2
+11 abstract_964.txt.xml_004E3
+12 abstract_965.txt.xml_004E4
+13 abstract_966.txt.xml_004E5
+14 abstract_998.txt.xml_00508
+15 abstract_999.txt.xml_00509
+Number of docs for application: 4
+1 abstract_1.txt.xml_0010D
+2 abstract_10.txt.xml_0010E
+3 abstract_100.txt.xml_0010F
+4 abstract_1000.txt.xml_00110
+
+30-Apr-2014 7:10:46 PM: 
+Training starts.
+
+30-Apr-2014 7:10:46 PM: Multi to binary conversion.
+30-Apr-2014 7:10:46 PM: The learners: PAUM
+30-Apr-2014 7:10:46 PM: The number of classes in dataset: 14
+30-Apr-2014 7:10:46 PM: total Number of classes for learning is 14
+30-Apr-2014 7:10:46 PM: One against others for multi to binary class conversion.
+30-Apr-2014 7:10:46 PM: Training time for class 1: 34ms
+30-Apr-2014 7:10:46 PM: Training time for class 2: 34ms
+30-Apr-2014 7:10:46 PM: Training time for class 3: 33ms
+30-Apr-2014 7:10:47 PM: Training time for class 4: 30ms
+30-Apr-2014 7:10:47 PM: Training time for class 5: 32ms
+30-Apr-2014 7:10:47 PM: Training time for class 6: 26ms
+30-Apr-2014 7:10:47 PM: Training time for class 7: 39ms
+30-Apr-2014 7:10:47 PM: Training time for class 8: 82ms
+30-Apr-2014 7:10:47 PM: Training time for class 9: 74ms
+30-Apr-2014 7:10:47 PM: Training time for class 10: 95ms
+30-Apr-2014 7:10:47 PM: Training time for class 11: 65ms
+30-Apr-2014 7:10:47 PM: Training time for class 12: 72ms
+30-Apr-2014 7:10:47 PM: Training time for class 13: 75ms
+30-Apr-2014 7:10:47 PM: Training time for class 14: 57ms
+30-Apr-2014 7:10:48 PM: 
+Application starts.
+30-Apr-2014 7:10:48 PM: Multi to binary conversion.
+30-Apr-2014 7:10:48 PM: The learners: PAUM
+30-Apr-2014 7:10:48 PM: One against others for multi to binary class conversion.
+Number of classes in model: 14
+30-Apr-2014 7:10:48 PM: Application time for class: 130ms
+30-Apr-2014 7:10:50 PM: Results of this run:
+
+
+Results of single label:
+0 LabelName=amino_acid, number of instances=2
+  (correct, partialCorrect, spurious, missing)= (0.0, 0.0, 0.0, 0.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.0, 0.0, 0.0)
+1 LabelName=data_type, number of instances=47
+  (correct, partialCorrect, spurious, missing)= (10.0, 0.0, 0.0, 14.0);  (precision, recall, F1)= (1.0, 0.41666666, 0.5882353);  Lenient: (1.0, 0.41666666, 0.5882353)
+2 LabelName=disease, number of instances=4
+  (correct, partialCorrect, spurious, missing)= (0.0, 0.0, 0.0, 0.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.0, 0.0, 0.0)
+3 LabelName=gene, number of instances=38
+  (correct, partialCorrect, spurious, missing)= (1.0, 0.0, 2.0, 2.0);  (precision, recall, F1)= (0.33333334, 0.33333334, 0.33333334);  Lenient: (0.33333334, 0.33333334, 0.33333334)
+4 LabelName=method, number of instances=17
+  (correct, partialCorrect, spurious, missing)= (0.0, 0.0, 0.0, 0.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.0, 0.0, 0.0)
+5 LabelName=protein, number of instances=29
+  (correct, partialCorrect, spurious, missing)= (0.0, 0.0, 0.0, 6.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.0, 0.0, 0.0)
+6 LabelName=taxon, number of instances=290
+  (correct, partialCorrect, spurious, missing)= (5.0, 2.0, 9.0, 24.0);  (precision, recall, F1)= (0.3125, 0.16129032, 0.21276595);  Lenient: (0.4375, 0.22580644, 0.2978723)
+
+Overall results(micro-averaged over all labels):
+  (correct, partialCorrect, spurious, missing)= (16.0, 2.0, 11.0, 46.0);  (precision, recall, F1)= (0.55172414, 0.25, 0.34408602);  Lenient: (0.62068963, 0.28125, 0.38709676)
+
+30-Apr-2014 7:10:50 PM: 
+*** Fold 2
+Number of docs for training: 15
+1 abstract_1.txt.xml_0010D
+2 abstract_10.txt.xml_0010E
+3 abstract_100.txt.xml_0010F
+4 abstract_1000.txt.xml_00110
+5 abstract_1005.txt.xml_00115
+6 abstract_1006.txt.xml_00116
+7 abstract_1007.txt.xml_00117
+8 abstract_961.txt.xml_004E0
+9 abstract_962.txt.xml_004E1
+10 abstract_963.txt.xml_004E2
+11 abstract_964.txt.xml_004E3
+12 abstract_965.txt.xml_004E4
+13 abstract_966.txt.xml_004E5
+14 abstract_998.txt.xml_00508
+15 abstract_999.txt.xml_00509
+Number of docs for application: 4
+1 abstract_1001.txt.xml_00111
+2 abstract_1002.txt.xml_00112
+3 abstract_1003.txt.xml_00113
+4 abstract_1004.txt.xml_00114
+
+30-Apr-2014 7:11:22 PM: 
+Training starts.
+
+30-Apr-2014 7:11:22 PM: Multi to binary conversion.
+30-Apr-2014 7:11:22 PM: The learners: PAUM
+30-Apr-2014 7:11:23 PM: The number of classes in dataset: 14
+30-Apr-2014 7:11:23 PM: total Number of classes for learning is 14
+30-Apr-2014 7:11:23 PM: One against others for multi to binary class conversion.
+30-Apr-2014 7:11:23 PM: Training time for class 1: 49ms
+30-Apr-2014 7:11:23 PM: Training time for class 2: 31ms
+30-Apr-2014 7:11:23 PM: Training time for class 3: 54ms
+30-Apr-2014 7:11:23 PM: Training time for class 4: 72ms
+30-Apr-2014 7:11:23 PM: Training time for class 5: 69ms
+30-Apr-2014 7:11:23 PM: Training time for class 6: 36ms
+30-Apr-2014 7:11:23 PM: Training time for class 7: 36ms
+30-Apr-2014 7:11:23 PM: Training time for class 8: 33ms
+30-Apr-2014 7:11:23 PM: Training time for class 9: 38ms
+30-Apr-2014 7:11:23 PM: Training time for class 10: 40ms
+30-Apr-2014 7:11:23 PM: Training time for class 11: 59ms
+30-Apr-2014 7:11:23 PM: Training time for class 12: 47ms
+30-Apr-2014 7:11:23 PM: Training time for class 13: 44ms
+30-Apr-2014 7:11:23 PM: Training time for class 14: 38ms
+30-Apr-2014 7:11:43 PM: 
+Application starts.
+30-Apr-2014 7:11:43 PM: Multi to binary conversion.
+30-Apr-2014 7:11:43 PM: The learners: PAUM
+30-Apr-2014 7:11:43 PM: One against others for multi to binary class conversion.
+Number of classes in model: 14
+30-Apr-2014 7:11:44 PM: Application time for class: 740ms
+30-Apr-2014 7:11:45 PM: Results of this run:
+
+
+Results of single label:
+0 LabelName=amino_acid, number of instances=2
+  (correct, partialCorrect, spurious, missing)= (0.0, 0.0, 0.0, 0.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.0, 0.0, 0.0)
+1 LabelName=data_type, number of instances=64
+  (correct, partialCorrect, spurious, missing)= (2.0, 0.0, 6.0, 5.0);  (precision, recall, F1)= (0.25, 0.2857143, 0.26666668);  Lenient: (0.25, 0.2857143, 0.26666668)
+2 LabelName=disease, number of instances=4
+  (correct, partialCorrect, spurious, missing)= (0.0, 0.0, 1.0, 0.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.0, 0.0, 0.0)
+3 LabelName=gene, number of instances=41
+  (correct, partialCorrect, spurious, missing)= (0.0, 0.0, 0.0, 0.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.0, 0.0, 0.0)
+4 LabelName=method, number of instances=2
+  (correct, partialCorrect, spurious, missing)= (2.0, 0.0, 1.0, 13.0);  (precision, recall, F1)= (0.6666667, 0.13333334, 0.22222224);  Lenient: (0.6666667, 0.13333334, 0.22222224)
+5 LabelName=protein, number of instances=20
+  (correct, partialCorrect, spurious, missing)= (0.0, 0.0, 1.0, 15.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.0, 0.0, 0.0)
+6 LabelName=taxon, number of instances=226
+  (correct, partialCorrect, spurious, missing)= (5.0, 0.0, 5.0, 90.0);  (precision, recall, F1)= (0.5, 0.05263158, 0.0952381);  Lenient: (0.5, 0.05263158, 0.0952381)
+
+Overall results(micro-averaged over all labels):
+  (correct, partialCorrect, spurious, missing)= (9.0, 0.0, 14.0, 123.0);  (precision, recall, F1)= (0.39130434, 0.06818182, 0.11612903);  Lenient: (0.39130434, 0.06818182, 0.11612903)
+
+30-Apr-2014 7:11:45 PM: 
+*** Fold 3
+Number of docs for training: 15
+1 abstract_1.txt.xml_0010D
+2 abstract_10.txt.xml_0010E
+3 abstract_100.txt.xml_0010F
+4 abstract_1000.txt.xml_00110
+5 abstract_1001.txt.xml_00111
+6 abstract_1002.txt.xml_00112
+7 abstract_1003.txt.xml_00113
+8 abstract_1004.txt.xml_00114
+9 abstract_962.txt.xml_004E1
+10 abstract_963.txt.xml_004E2
+11 abstract_964.txt.xml_004E3
+12 abstract_965.txt.xml_004E4
+13 abstract_966.txt.xml_004E5
+14 abstract_998.txt.xml_00508
+15 abstract_999.txt.xml_00509
+Number of docs for application: 4
+1 abstract_1005.txt.xml_00115
+2 abstract_1006.txt.xml_00116
+3 abstract_1007.txt.xml_00117
+4 abstract_961.txt.xml_004E0
+
+30-Apr-2014 7:11:46 PM: 
+Training starts.
+
+30-Apr-2014 7:11:46 PM: Multi to binary conversion.
+30-Apr-2014 7:11:46 PM: The learners: PAUM
+30-Apr-2014 7:11:46 PM: The number of classes in dataset: 14
+30-Apr-2014 7:11:46 PM: total Number of classes for learning is 14
+30-Apr-2014 7:11:46 PM: One against others for multi to binary class conversion.
+30-Apr-2014 7:11:46 PM: Training time for class 1: 35ms
+30-Apr-2014 7:11:46 PM: Training time for class 2: 33ms
+30-Apr-2014 7:11:46 PM: Training time for class 3: 25ms
+30-Apr-2014 7:11:46 PM: Training time for class 4: 34ms
+30-Apr-2014 7:11:46 PM: Training time for class 5: 33ms
+30-Apr-2014 7:11:46 PM: Training time for class 6: 37ms
+30-Apr-2014 7:11:46 PM: Training time for class 7: 32ms
+30-Apr-2014 7:11:46 PM: Training time for class 8: 34ms
+30-Apr-2014 7:11:46 PM: Training time for class 9: 27ms
+30-Apr-2014 7:11:46 PM: Training time for class 10: 28ms
+30-Apr-2014 7:11:46 PM: Training time for class 11: 38ms
+30-Apr-2014 7:11:46 PM: Training time for class 12: 33ms
+30-Apr-2014 7:11:46 PM: Training time for class 13: 30ms
+30-Apr-2014 7:11:46 PM: Training time for class 14: 82ms
+30-Apr-2014 7:12:03 PM: 
+Application starts.
+30-Apr-2014 7:12:03 PM: Multi to binary conversion.
+30-Apr-2014 7:12:03 PM: The learners: PAUM
+30-Apr-2014 7:12:03 PM: One against others for multi to binary class conversion.
+Number of classes in model: 14
+30-Apr-2014 7:12:04 PM: Application time for class: 962ms
+30-Apr-2014 7:12:05 PM: Results of this run:
+
+
+Results of single label:
+0 LabelName=amino_acid, number of instances=2
+  (correct, partialCorrect, spurious, missing)= (0.0, 0.0, 0.0, 0.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.0, 0.0, 0.0)
+1 LabelName=data_type, number of instances=56
+  (correct, partialCorrect, spurious, missing)= (2.0, 0.0, 0.0, 13.0);  (precision, recall, F1)= (1.0, 0.13333334, 0.23529413);  Lenient: (1.0, 0.13333334, 0.23529413)
+2 LabelName=disease, number of instances=4
+  (correct, partialCorrect, spurious, missing)= (0.0, 0.0, 2.0, 0.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.0, 0.0, 0.0)
+3 LabelName=gene, number of instances=15
+  (correct, partialCorrect, spurious, missing)= (2.0, 0.0, 0.0, 24.0);  (precision, recall, F1)= (1.0, 0.07692308, 0.14285713);  Lenient: (1.0, 0.07692308, 0.14285713)
+4 LabelName=method, number of instances=17
+  (correct, partialCorrect, spurious, missing)= (0.0, 0.0, 0.0, 0.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.0, 0.0, 0.0)
+5 LabelName=protein, number of instances=35
+  (correct, partialCorrect, spurious, missing)= (0.0, 0.0, 9.0, 0.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.0, 0.0, 0.0)
+6 LabelName=taxon, number of instances=223
+  (correct, partialCorrect, spurious, missing)= (10.0, 2.0, 5.0, 86.0);  (precision, recall, F1)= (0.5882353, 0.10204082, 0.17391305);  Lenient: (0.7058824, 0.12244898, 0.20869567)
+
+Overall results(micro-averaged over all labels):
+  (correct, partialCorrect, spurious, missing)= (14.0, 2.0, 16.0, 123.0);  (precision, recall, F1)= (0.4375, 0.10071942, 0.16374268);  Lenient: (0.5, 0.11510792, 0.18713452)
+
+30-Apr-2014 7:12:06 PM: 
+*** Fold 4
+Number of docs for training: 15
+1 abstract_1.txt.xml_0010D
+2 abstract_10.txt.xml_0010E
+3 abstract_100.txt.xml_0010F
+4 abstract_1000.txt.xml_00110
+5 abstract_1001.txt.xml_00111
+6 abstract_1002.txt.xml_00112
+7 abstract_1003.txt.xml_00113
+8 abstract_1004.txt.xml_00114
+9 abstract_1005.txt.xml_00115
+10 abstract_1006.txt.xml_00116
+11 abstract_1007.txt.xml_00117
+12 abstract_961.txt.xml_004E0
+13 abstract_966.txt.xml_004E5
+14 abstract_998.txt.xml_00508
+15 abstract_999.txt.xml_00509
+Number of docs for application: 4
+1 abstract_962.txt.xml_004E1
+2 abstract_963.txt.xml_004E2
+3 abstract_964.txt.xml_004E3
+4 abstract_965.txt.xml_004E4
+
+30-Apr-2014 7:12:07 PM: 
+Training starts.
+
+30-Apr-2014 7:12:07 PM: Multi to binary conversion.
+30-Apr-2014 7:12:07 PM: The learners: PAUM
+30-Apr-2014 7:12:07 PM: The number of classes in dataset: 12
+30-Apr-2014 7:12:07 PM: total Number of classes for learning is 12
+30-Apr-2014 7:12:07 PM: One against others for multi to binary class conversion.
+30-Apr-2014 7:12:07 PM: Training time for class 1: 55ms
+30-Apr-2014 7:12:07 PM: Training time for class 2: 32ms
+30-Apr-2014 7:12:07 PM: Training time for class 3: 31ms
+30-Apr-2014 7:12:07 PM: Training time for class 4: 33ms
+30-Apr-2014 7:12:07 PM: Training time for class 5: 30ms
+30-Apr-2014 7:12:07 PM: Training time for class 6: 32ms
+30-Apr-2014 7:12:07 PM: Training time for class 7: 34ms
+30-Apr-2014 7:12:07 PM: Training time for class 8: 30ms
+30-Apr-2014 7:12:07 PM: Training time for class 9: 29ms
+30-Apr-2014 7:12:07 PM: Training time for class 10: 29ms
+30-Apr-2014 7:12:07 PM: Training time for class 11: 36ms
+30-Apr-2014 7:12:07 PM: Training time for class 12: 28ms
+30-Apr-2014 7:12:07 PM: 
+Application starts.
+30-Apr-2014 7:12:07 PM: Multi to binary conversion.
+30-Apr-2014 7:12:07 PM: The learners: PAUM
+30-Apr-2014 7:12:07 PM: One against others for multi to binary class conversion.
+Number of classes in model: 12
+30-Apr-2014 7:12:08 PM: Application time for class: 175ms
+30-Apr-2014 7:12:09 PM: Results of this run:
+
+
+Results of single label:
+0 LabelName=data_type, number of instances=49
+  (correct, partialCorrect, spurious, missing)= (6.0, 0.0, 2.0, 16.0);  (precision, recall, F1)= (0.75, 0.27272728, 0.40000004);  Lenient: (0.75, 0.27272728, 0.40000004)
+1 LabelName=disease, number of instances=4
+  (correct, partialCorrect, spurious, missing)= (0.0, 0.0, 0.0, 0.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.0, 0.0, 0.0)
+2 LabelName=gene, number of instances=29
+  (correct, partialCorrect, spurious, missing)= (0.0, 0.0, 2.0, 12.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.0, 0.0, 0.0)
+3 LabelName=method, number of instances=15
+  (correct, partialCorrect, spurious, missing)= (1.0, 0.0, 0.0, 1.0);  (precision, recall, F1)= (1.0, 0.5, 0.6666667);  Lenient: (1.0, 0.5, 0.6666667)
+4 LabelName=protein, number of instances=21
+  (correct, partialCorrect, spurious, missing)= (0.0, 0.0, 5.0, 14.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.0, 0.0, 0.0)
+5 LabelName=taxon, number of instances=283
+  (correct, partialCorrect, spurious, missing)= (7.0, 1.0, 10.0, 30.0);  (precision, recall, F1)= (0.3888889, 0.18421052, 0.25);  Lenient: (0.44444445, 0.21052632, 0.2857143)
+
+Overall results(micro-averaged over all labels):
+  (correct, partialCorrect, spurious, missing)= (14.0, 1.0, 19.0, 73.0);  (precision, recall, F1)= (0.4117647, 0.1590909, 0.2295082);  Lenient: (0.44117647, 0.17045455, 0.24590163)
+
+30-Apr-2014 7:12:09 PM: 
+*** Averaged results for each label over 4 runs as:
+
+Results of single label:
+0 LabelName=amino_acid, number of instances=2
+  (correct, partialCorrect, spurious, missing)= (0.0, 0.0, 0.0, 0.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.0, 0.0, 0.0)
+1 LabelName=data_type, number of instances=54
+  (correct, partialCorrect, spurious, missing)= (5.0, 0.0, 2.0, 12.0);  (precision, recall, F1)= (0.75, 0.2771104, 0.37254906);  Lenient: (0.75, 0.2771104, 0.37254906)
+2 LabelName=disease, number of instances=4
+  (correct, partialCorrect, spurious, missing)= (0.0, 0.0, 0.75, 0.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.0, 0.0, 0.0)
+3 LabelName=gene, number of instances=30
+  (correct, partialCorrect, spurious, missing)= (0.75, 0.0, 1.0, 9.5);  (precision, recall, F1)= (0.33333334, 0.102564104, 0.11904762);  Lenient: (0.33333334, 0.102564104, 0.11904762)
+4 LabelName=method, number of instances=12
+  (correct, partialCorrect, spurious, missing)= (0.75, 0.0, 0.25, 3.5);  (precision, recall, F1)= (0.4166667, 0.15833333, 0.22222224);  Lenient: (0.4166667, 0.15833333, 0.22222224)
+5 LabelName=protein, number of instances=26
+  (correct, partialCorrect, spurious, missing)= (0.0, 0.0, 3.75, 8.75);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.0, 0.0, 0.0)
+6 LabelName=taxon, number of instances=255
+  (correct, partialCorrect, spurious, missing)= (6.75, 1.25, 7.25, 57.5);  (precision, recall, F1)= (0.44740605, 0.12504332, 0.18297927);  Lenient: (0.5219567, 0.15285334, 0.22188008)
+
+Overall results as:
+  (correct, partialCorrect, spurious, missing)= (13.25, 1.25, 15.0, 91.25);  (precision, recall, F1)= (0.4480733, 0.14449804, 0.2133665);  Lenient: (0.48829263, 0.15874857, 0.23406549)
+
+30-Apr-2014 7:12:09 PM: This learning session finished!.
